@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/functions.js"></script>
+    <title>Employee Search Results</title>
+</head>
+<body>
+    <header>
+        <div class="search">
+            Name:
+            <input type="text" id="employeeName" />
+            Job Title:
+            <input type="text" id="jobTitle" />
+            Age:
+            <input type="text" id="age" />
+            <button class="searchSubmit" onclick="searchEmployees()">Submit</button>
+        </div>
+    </header>
+    <div id="employees"></div>
+</body>
+</html>
